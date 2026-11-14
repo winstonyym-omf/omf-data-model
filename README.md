@@ -1,1 +1,4 @@
 This project assesses and evaluates data models of providers with the aim of improving the Overture GERS data model.
+
+### Tasks
+-Literature review
