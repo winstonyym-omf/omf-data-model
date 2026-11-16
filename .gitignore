@@ -26,6 +26,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+notes/
+updates/
 
 # PyInstaller
 *.manifest
@@ -129,3 +131,6 @@ dmypy.json
 *.swo
 *~
 .DS_Store
+
+# Local agent instructions
+CLAUDE.md
