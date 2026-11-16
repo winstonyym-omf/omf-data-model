@@ -12,9 +12,13 @@ This research project assesses and evaluates the data models used by geospatial 
 
 ## Current work
 
-| Item | Description | Tracking |
-| --- | --- | --- |
-| Literature review | Review alternative data models for providers | Jira `OMF-1` |
+| Item | Description | Status | Tracking |
+| --- | --- | --- | --- |
+| Literature review | Review alternative data models for providers | In Progress | Jira `OMF-1` |
+| Shortlisted paper review | Data model ideas and challenges from five POI matching and data quality papers | In Progress | Jira `OMF-3` |
+| Places pipeline study | Places data model, theme and type, and the blocking, matching, and clustering stages | In Progress | Jira `OMF-4` |
+| DuckDB and GeoParquet queries | Query Overture release data and the GERS registry without full downloads | In Progress | Jira `OMF-5` |
+| GERS evaluation metrics | Quantifiable metrics for comparing GERS data model options | In Progress | Jira `OMF-6` |
 
 ## Where things are tracked
 
@@ -29,5 +33,6 @@ This research project assesses and evaluates the data models used by geospatial 
 
 ## Status and open questions
 
-- The evaluation criteria used to compare data models are not yet defined in this repository. They should be settled as part of the literature review.
-- No experiments or results are included yet.
+- The evaluation criteria used to compare data models are not yet defined in this repository. They should be settled as part of the literature review and the metrics work (`OMF-6`).
+- Open questions: how Places relate to Buildings and other themes; what should keep its identity when a place changes; whether a GERS ID should be replaced for new businesses.
+- Observations so far come from Overture documentation and reading only. No experiments or results are included yet.
