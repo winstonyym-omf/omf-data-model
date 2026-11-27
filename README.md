@@ -19,12 +19,13 @@ This research project assesses and evaluates the data models used by geospatial 
 | Places pipeline study | Places data model, theme and type, and the blocking, matching, and clustering stages | In Progress | Jira `OMF-4` |
 | DuckDB and GeoParquet queries | Query Overture release data and the GERS registry without full downloads | In Progress | Jira `OMF-5` |
 | GERS evaluation metrics | Quantifiable metrics for comparing GERS data model options | In Progress | Jira `OMF-6` |
+| Provider model evaluation | Compare OpenStreetMap, Foursquare, and Google Places place models with the GERS place model, field by field | Open | GitHub #7 (related to `OMF-6`) |
 
 ## Where things are tracked
 
 - **Jira (`OMF`)**: planned research work and milestones.
 - **Confluence (Research & Development)**: findings and experiment write-ups.
-- **GitHub Issues**: code defects and engineering tasks.
+- **GitHub Issues**: code defects and engineering tasks. Research issues may also be raised here: #7 covers the provider model comparison and links back to `OMF-6` for the criteria.
 
 ## Repository contents
 
@@ -33,6 +34,6 @@ This research project assesses and evaluates the data models used by geospatial 
 
 ## Status and open questions
 
-- The evaluation criteria used to compare data models are not yet defined in this repository. They should be settled as part of the literature review and the metrics work (`OMF-6`).
+- The evaluation criteria used to compare data models are not yet defined in this repository. They should be settled as part of the literature review and the metrics work (`OMF-6`). The provider model comparison in GitHub #7 depends on those criteria, so its field mappings should be checked against them once they exist.
 - Open questions: how Places relate to Buildings and other themes; what should keep its identity when a place changes; whether a GERS ID should be replaced for new businesses.
 - Observations so far come from Overture documentation and reading only. No experiments or results are included yet.
